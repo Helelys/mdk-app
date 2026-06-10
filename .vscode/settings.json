@@ -3,6 +3,12 @@
         "./.vscode/my-less.css-data.json"
     ],
     "mdk.uieditor": {
-        "device": "tablet"
+        "left": {
+            "visible": true
+        },
+        "right": {
+            "visible": true,
+            "width": 320
+        }
     }
 }

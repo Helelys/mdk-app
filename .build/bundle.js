@@ -43,6 +43,7 @@ let demoappsample_actions_com_sap_edm_sampleservice_v4_service_initializeoffline
 let demoappsample_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_action = __webpack_require__(/*! ./demoappsample/Actions/com_sap_edm_sampleservice_v4/Service/SyncFailureMessage.action */ "./build.definitions/demoappsample/Actions/com_sap_edm_sampleservice_v4/Service/SyncFailureMessage.action")
 let demoappsample_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action = __webpack_require__(/*! ./demoappsample/Actions/com_sap_edm_sampleservice_v4/Service/SyncStartedMessage.action */ "./build.definitions/demoappsample/Actions/com_sap_edm_sampleservice_v4/Service/SyncStartedMessage.action")
 let demoappsample_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action = __webpack_require__(/*! ./demoappsample/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action */ "./build.definitions/demoappsample/Actions/com_sap_edm_sampleservice_v4/Service/UploadOffline.action")
+let demoappsample_actions_customers_updateentity_action = __webpack_require__(/*! ./demoappsample/Actions/Customers_UpdateEntity.action */ "./build.definitions/demoappsample/Actions/Customers_UpdateEntity.action")
 let demoappsample_actions_errorarchive_errorarchive_syncfailure_action = __webpack_require__(/*! ./demoappsample/Actions/ErrorArchive/ErrorArchive_SyncFailure.action */ "./build.definitions/demoappsample/Actions/ErrorArchive/ErrorArchive_SyncFailure.action")
 let demoappsample_actions_errorarchive_navtoerrorarchive_detail_action = __webpack_require__(/*! ./demoappsample/Actions/ErrorArchive/NavToErrorArchive_Detail.action */ "./build.definitions/demoappsample/Actions/ErrorArchive/NavToErrorArchive_Detail.action")
 let demoappsample_actions_errorarchive_navtoerrorarchive_list_action = __webpack_require__(/*! ./demoappsample/Actions/ErrorArchive/NavToErrorArchive_List.action */ "./build.definitions/demoappsample/Actions/ErrorArchive/NavToErrorArchive_List.action")
@@ -54,7 +55,10 @@ let demoappsample_actions_logging_loguploadfailure_action = __webpack_require__(
 let demoappsample_actions_logging_loguploadsuccessful_action = __webpack_require__(/*! ./demoappsample/Actions/Logging/LogUploadSuccessful.action */ "./build.definitions/demoappsample/Actions/Logging/LogUploadSuccessful.action")
 let demoappsample_actions_logging_uploadlog_action = __webpack_require__(/*! ./demoappsample/Actions/Logging/UploadLog.action */ "./build.definitions/demoappsample/Actions/Logging/UploadLog.action")
 let demoappsample_actions_logging_uploadlogprogress_action = __webpack_require__(/*! ./demoappsample/Actions/Logging/UploadLogProgress.action */ "./build.definitions/demoappsample/Actions/Logging/UploadLogProgress.action")
+let demoappsample_actions_navtocustomers_detail_action = __webpack_require__(/*! ./demoappsample/Actions/NavToCustomers_Detail.action */ "./build.definitions/demoappsample/Actions/NavToCustomers_Detail.action")
+let demoappsample_actions_navtocustomers_edit_action = __webpack_require__(/*! ./demoappsample/Actions/NavToCustomers_Edit.action */ "./build.definitions/demoappsample/Actions/NavToCustomers_Edit.action")
 let demoappsample_actions_navtocustomers_list_action = __webpack_require__(/*! ./demoappsample/Actions/NavToCustomers_List.action */ "./build.definitions/demoappsample/Actions/NavToCustomers_List.action")
+let demoappsample_actions_updatecustomersentityfailuremessage_action = __webpack_require__(/*! ./demoappsample/Actions/UpdateCustomersEntityFailureMessage.action */ "./build.definitions/demoappsample/Actions/UpdateCustomersEntityFailureMessage.action")
 let demoappsample_globals_application_appdefinition_version_global = __webpack_require__(/*! ./demoappsample/Globals/Application/AppDefinition_Version.global */ "./build.definitions/demoappsample/Globals/Application/AppDefinition_Version.global")
 let demoappsample_globals_application_applicationname_global = __webpack_require__(/*! ./demoappsample/Globals/Application/ApplicationName.global */ "./build.definitions/demoappsample/Globals/Application/ApplicationName.global")
 let demoappsample_globals_application_supportemail_global = __webpack_require__(/*! ./demoappsample/Globals/Application/SupportEmail.global */ "./build.definitions/demoappsample/Globals/Application/SupportEmail.global")
@@ -64,6 +68,8 @@ let demoappsample_jsconfig_json = __webpack_require__(/*! ./demoappsample/jsconf
 let demoappsample_pages_application_about_page = __webpack_require__(/*! ./demoappsample/Pages/Application/About.page */ "./build.definitions/demoappsample/Pages/Application/About.page")
 let demoappsample_pages_application_support_page = __webpack_require__(/*! ./demoappsample/Pages/Application/Support.page */ "./build.definitions/demoappsample/Pages/Application/Support.page")
 let demoappsample_pages_application_useractivitylog_page = __webpack_require__(/*! ./demoappsample/Pages/Application/UserActivityLog.page */ "./build.definitions/demoappsample/Pages/Application/UserActivityLog.page")
+let demoappsample_pages_customers_detail_page = __webpack_require__(/*! ./demoappsample/Pages/Customers_Detail.page */ "./build.definitions/demoappsample/Pages/Customers_Detail.page")
+let demoappsample_pages_customers_edit_page = __webpack_require__(/*! ./demoappsample/Pages/Customers_Edit.page */ "./build.definitions/demoappsample/Pages/Customers_Edit.page")
 let demoappsample_pages_customers_list_page = __webpack_require__(/*! ./demoappsample/Pages/Customers_List.page */ "./build.definitions/demoappsample/Pages/Customers_List.page")
 let demoappsample_pages_errorarchive_errorarchive_detail_page = __webpack_require__(/*! ./demoappsample/Pages/ErrorArchive/ErrorArchive_Detail.page */ "./build.definitions/demoappsample/Pages/ErrorArchive/ErrorArchive_Detail.page")
 let demoappsample_pages_errorarchive_errorarchive_list_page = __webpack_require__(/*! ./demoappsample/Pages/ErrorArchive/ErrorArchive_List.page */ "./build.definitions/demoappsample/Pages/ErrorArchive/ErrorArchive_List.page")
@@ -119,6 +125,7 @@ module.exports = {
 	demoappsample_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_action : demoappsample_actions_com_sap_edm_sampleservice_v4_service_syncfailuremessage_action,
 	demoappsample_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action : demoappsample_actions_com_sap_edm_sampleservice_v4_service_syncstartedmessage_action,
 	demoappsample_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action : demoappsample_actions_com_sap_edm_sampleservice_v4_service_uploadoffline_action,
+	demoappsample_actions_customers_updateentity_action : demoappsample_actions_customers_updateentity_action,
 	demoappsample_actions_errorarchive_errorarchive_syncfailure_action : demoappsample_actions_errorarchive_errorarchive_syncfailure_action,
 	demoappsample_actions_errorarchive_navtoerrorarchive_detail_action : demoappsample_actions_errorarchive_navtoerrorarchive_detail_action,
 	demoappsample_actions_errorarchive_navtoerrorarchive_list_action : demoappsample_actions_errorarchive_navtoerrorarchive_list_action,
@@ -130,7 +137,10 @@ module.exports = {
 	demoappsample_actions_logging_loguploadsuccessful_action : demoappsample_actions_logging_loguploadsuccessful_action,
 	demoappsample_actions_logging_uploadlog_action : demoappsample_actions_logging_uploadlog_action,
 	demoappsample_actions_logging_uploadlogprogress_action : demoappsample_actions_logging_uploadlogprogress_action,
+	demoappsample_actions_navtocustomers_detail_action : demoappsample_actions_navtocustomers_detail_action,
+	demoappsample_actions_navtocustomers_edit_action : demoappsample_actions_navtocustomers_edit_action,
 	demoappsample_actions_navtocustomers_list_action : demoappsample_actions_navtocustomers_list_action,
+	demoappsample_actions_updatecustomersentityfailuremessage_action : demoappsample_actions_updatecustomersentityfailuremessage_action,
 	demoappsample_globals_application_appdefinition_version_global : demoappsample_globals_application_appdefinition_version_global,
 	demoappsample_globals_application_applicationname_global : demoappsample_globals_application_applicationname_global,
 	demoappsample_globals_application_supportemail_global : demoappsample_globals_application_supportemail_global,
@@ -140,6 +150,8 @@ module.exports = {
 	demoappsample_pages_application_about_page : demoappsample_pages_application_about_page,
 	demoappsample_pages_application_support_page : demoappsample_pages_application_support_page,
 	demoappsample_pages_application_useractivitylog_page : demoappsample_pages_application_useractivitylog_page,
+	demoappsample_pages_customers_detail_page : demoappsample_pages_customers_detail_page,
+	demoappsample_pages_customers_edit_page : demoappsample_pages_customers_edit_page,
 	demoappsample_pages_customers_list_page : demoappsample_pages_customers_list_page,
 	demoappsample_pages_errorarchive_errorarchive_detail_page : demoappsample_pages_errorarchive_errorarchive_detail_page,
 	demoappsample_pages_errorarchive_errorarchive_list_page : demoappsample_pages_errorarchive_errorarchive_list_page,
@@ -1025,13 +1037,33 @@ module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":true,"_Type
 
 /***/ }),
 
+/***/ "./build.definitions/demoappsample/Pages/Customers_Detail.page":
+/*!*********************************************************************!*\
+  !*** ./build.definitions/demoappsample/Pages/Customers_Detail.page ***!
+  \*********************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"ObjectHeader":{"Subhead":"{FirstName}","Footnote":"{EmailAddress}","Description":"{CustomerID}","StatusText":"{PhoneNumber}","DetailImage":"sap-icon://customer","DetailImageIsCircular":false,"BodyText":"{DateOfBirth}","HeadlineText":"{LastName}","StatusPosition":"Stacked","StatusImagePosition":"Leading","SubstatusImagePosition":"Leading"},"_Type":"Section.Type.ObjectHeader","_Name":"SectionObjectHeader0","Visible":true},{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"KeyAndValues":[{"Styles":{"KeyName":"Adress","Value":"{HouseNumber}"},"Value":"{HouseNumber} {Street}","_Type":"KeyValue.Type.Item","_Name":"KeyValue2","KeyName":"Adress","Visible":true},{"Value":"{City}","_Type":"KeyValue.Type.Item","_Name":"KeyValue0","KeyName":"City","Visible":true},{"Value":"{PostalCode}","_Type":"KeyValue.Type.Item","_Name":"KeyValue1","KeyName":"Postal Code","Visible":true},{"Value":"{Country}","_Type":"KeyValue.Type.Item","_Name":"KeyValue3","KeyName":"Country","Visible":true}],"MaxItemCount":1,"_Type":"Section.Type.KeyValue","_Name":"SectionKeyValue0","Visible":true,"EmptySection":{"FooterVisible":false},"Layout":{"NumberOfColumns":2}}]}],"DesignTimeTarget":{"Service":"/demoappsample/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Type":"Page","_Name":"Customers_Detail","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Edit","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demoappsample/Actions/NavToCustomers_Edit.action"}],"_Name":"ActionBar2","_Type":"Control.Type.ActionBar","Caption":"Details","DataSubscriptions":[]}}
+
+/***/ }),
+
+/***/ "./build.definitions/demoappsample/Pages/Customers_Edit.page":
+/*!*******************************************************************!*\
+  !*** ./build.definitions/demoappsample/Pages/Customers_Edit.page ***!
+  \*******************************************************************/
+/***/ ((module) => {
+
+module.exports = {"Controls":[{"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Visible":true,"EmptySection":{"FooterVisible":false},"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.FormCell","_Name":"SectionFormCell0","Controls":[{"Value":"{FirstName}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCFirstName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"First Name","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"{LastName}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCLastName","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Last Name","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"{PhoneNumber}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCPhone","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Phone","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true},{"Value":"{EmailAddress}","_Type":"Control.Type.FormCell.SimpleProperty","_Name":"FCEmail","RequiredIndicator":false,"IsVisible":true,"Separator":true,"Caption":"Email","PlaceHolder":"PlaceHolder","Enabled":true,"IsEditable":true}],"Layout":{"NumberOfColumns":1}}],"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"}}],"_Type":"Page","_Name":"Customers_Edit","ActionBar":{"Items":[{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem0","Caption":"Item","SystemItem":"Cancel","Icon":"sap-icon://cancel","Position":"Left","IsIconCircular":false,"Visible":true,"OnPress":"/demoappsample/Actions/CloseModalPage_Cancel.action"},{"_Type":"Control.Type.ActionBarItem","_Name":"ActionBarItem1","Caption":"Item","SystemItem":"Save","Icon":"sap-icon://edit","Position":"Right","IsIconCircular":false,"Visible":true,"OnPress":"/demoappsample/Actions/Customers_UpdateEntity.action"}],"_Name":"ActionBar0","_Type":"Control.Type.ActionBar","Caption":"Update Customer"}}
+
+/***/ }),
+
 /***/ "./build.definitions/demoappsample/Pages/Customers_List.page":
 /*!*******************************************************************!*\
   !*** ./build.definitions/demoappsample/Pages/Customers_List.page ***!
   \*******************************************************************/
 /***/ ((module) => {
 
-module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.ContactCell","Target":{"Service":"/demoappsample/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Name":"SectionContactCell0","Visible":true,"EmptySection":{"FooterVisible":false},"ContactCell":{"Visible":true,"DetailImage":"res://contact.png","BadgeImage":"res://contact.png","Headline":"{LastName}","Subheadline":"{FirstName}","Description":"{City}","ActivityItems":[{"_Name":"SectionContactCell0ActivityItems0","ActivityType":"Phone","ActivityValue":"{PhoneNumber}"}],"ContextMenu":{"PerformFirstActionWithFullSwipe":true}},"DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"DetailImageIsCircular":true,"UseHeadlineForDetailImage":false,"Search":{"Enabled":true}}]}],"_Type":"Page","_Name":"Customers_List","ActionBar":{"Items":[],"_Name":"ActionBar2","_Type":"Control.Type.ActionBar","Caption":"Customers"}}
+module.exports = {"Controls":[{"FilterFeedbackBar":{"ShowAllFilters":false,"_Type":"Control.Type.FilterFeedbackBar"},"_Type":"Control.Type.SectionedTable","_Name":"SectionedTable0","Sections":[{"Separators":{"TopSectionSeparator":false,"BottomSectionSeparator":true,"HeaderSeparator":true,"FooterSeparator":true,"ControlSeparator":true},"_Type":"Section.Type.ContactCell","Target":{"Service":"/demoappsample/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers"},"_Name":"SectionContactCell0","Visible":true,"EmptySection":{"FooterVisible":false},"ContactCell":{"Visible":true,"DetailImage":"res://contact.png","BadgeImage":"res://contact.png","Headline":"{LastName}","Subheadline":"{FirstName}","Description":"{City}","OnPress":"/demoappsample/Actions/NavToCustomers_Detail.action","ActivityItems":[{"_Name":"SectionContactCell0ActivityItems0","ActivityType":"Phone","ActivityValue":"{PhoneNumber}"},{"_Name":"SectionContactCell0ActivityItems1","ActivityType":"Email","ActivityValue":"{EmailAddress}"}],"ContextMenu":{"PerformFirstActionWithFullSwipe":true}},"DataPaging":{"ShowLoadingIndicator":false,"PageSize":50},"DetailImageIsCircular":true,"UseHeadlineForDetailImage":false,"Search":{"Enabled":true}}]}],"_Type":"Page","_Name":"Customers_List","ActionBar":{"Items":[],"_Name":"ActionBar4","_Type":"Control.Type.ActionBar","Caption":"Customers"}}
 
 /***/ }),
 
@@ -1225,6 +1257,16 @@ module.exports = {"_Type":"Action.Type.ClosePage"}
 
 /***/ }),
 
+/***/ "./build.definitions/demoappsample/Actions/Customers_UpdateEntity.action":
+/*!*******************************************************************************!*\
+  !*** ./build.definitions/demoappsample/Actions/Customers_UpdateEntity.action ***!
+  \*******************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.ODataService.UpdateEntity","ActionResult":{"_Name":"Customers_UpdateEntity"},"OnFailure":"/demoappsample/Actions/UpdateCustomersEntityFailureMessage.action","OnSuccess":"/demoappsample/Actions/CloseModalPage_Complete.action","Target":{"Service":"/demoappsample/Services/com_sap_edm_sampleservice_v4.service","EntitySet":"Customers","ReadLink":"{@odata.readLink}"},"Properties":{"EmailAddress":"#Page:Customers_Edit/#Control:FCEmail/#Value","FirstName":"#Page:Customers_Edit/#Control:FCFirstName/#Value","LastName":"#Page:Customers_Edit/#Control:FCLastName/#Value","PhoneNumber":"#Page:Customers_Edit/#Control:FCPhone/#Value"}}
+
+/***/ }),
+
 /***/ "./build.definitions/demoappsample/Actions/ErrorArchive/ErrorArchive_SyncFailure.action":
 /*!**********************************************************************************************!*\
   !*** ./build.definitions/demoappsample/Actions/ErrorArchive/ErrorArchive_SyncFailure.action ***!
@@ -1335,6 +1377,26 @@ module.exports = {"Animated":true,"CompletionMessage":"Logs Uploaded","Completio
 
 /***/ }),
 
+/***/ "./build.definitions/demoappsample/Actions/NavToCustomers_Detail.action":
+/*!******************************************************************************!*\
+  !*** ./build.definitions/demoappsample/Actions/NavToCustomers_Detail.action ***!
+  \******************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_Detail"},"PageToOpen":"/demoappsample/Pages/Customers_Detail.page"}
+
+/***/ }),
+
+/***/ "./build.definitions/demoappsample/Actions/NavToCustomers_Edit.action":
+/*!****************************************************************************!*\
+  !*** ./build.definitions/demoappsample/Actions/NavToCustomers_Edit.action ***!
+  \****************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_Edit"},"PageToOpen":"/demoappsample/Pages/Customers_Edit.page","ModalPage":true}
+
+/***/ }),
+
 /***/ "./build.definitions/demoappsample/Actions/NavToCustomers_List.action":
 /*!****************************************************************************!*\
   !*** ./build.definitions/demoappsample/Actions/NavToCustomers_List.action ***!
@@ -1342,6 +1404,16 @@ module.exports = {"Animated":true,"CompletionMessage":"Logs Uploaded","Completio
 /***/ ((module) => {
 
 module.exports = {"_Type":"Action.Type.Navigation","ActionResult":{"_Name":"NavToCustomers_List"},"PageToOpen":"/demoappsample/Pages/Customers_List.page"}
+
+/***/ }),
+
+/***/ "./build.definitions/demoappsample/Actions/UpdateCustomersEntityFailureMessage.action":
+/*!********************************************************************************************!*\
+  !*** ./build.definitions/demoappsample/Actions/UpdateCustomersEntityFailureMessage.action ***!
+  \********************************************************************************************/
+/***/ ((module) => {
+
+module.exports = {"_Type":"Action.Type.Message","ActionResult":{"_Name":"UpdateCustomersEntityFailureMessage"},"Message":"Failed to Save Customer Updates - {#ActionResults:Customers_UpdateEntity/error}","Title":"Update Customer","OKCaption":"OK"}
 
 /***/ }),
 

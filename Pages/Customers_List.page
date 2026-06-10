@@ -33,11 +33,17 @@
 						"Headline": "{LastName}",
 						"Subheadline": "{FirstName}",
 						"Description": "{City}",
+						"OnPress": "/demoappsample/Actions/NavToCustomers_Detail.action",
 						"ActivityItems": [
 							{
 								"_Name": "SectionContactCell0ActivityItems0",
 								"ActivityType": "Phone",
 								"ActivityValue": "{PhoneNumber}"
+							},
+							{
+								"_Name": "SectionContactCell0ActivityItems1",
+								"ActivityType": "Email",
+								"ActivityValue": "{EmailAddress}"
 							}
 						],
 						"ContextMenu": {
@@ -61,7 +67,7 @@
 	"_Name": "Customers_List",
 	"ActionBar": {
 		"Items": [],
-		"_Name": "ActionBar2",
+		"_Name": "ActionBar4",
 		"_Type": "Control.Type.ActionBar",
 		"Caption": "Customers"
 	}
